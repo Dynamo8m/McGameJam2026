@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
     private bool canJump;
+    private Vector3 originalScale;
 
     // ?? ADD THESE HERE
     public float jumpForce = 12f;
@@ -18,7 +19,9 @@ public class PlayerMovement : MonoBehaviour
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
-        body.interpolation = RigidbodyInterpolation2D.Interpolate; // helps jitter
+        body.interpolation = RigidbodyInterpolation2D.Interpolate;
+        originalScale = transform.localScale;
+        // helps jitter
     }
 
     public void OnJump(InputAction.CallbackContext context)
@@ -44,9 +47,17 @@ public class PlayerMovement : MonoBehaviour
 
         // Flip sprite
         if (movementInput.x > 0.01f)
-            transform.localScale = Vector3.one;
+            transform.localScale = new Vector3(
+                Mathf.Abs(originalScale.x),
+                originalScale.y,
+                originalScale.z
+            );
         else if (movementInput.x < -0.01f)
-            transform.localScale = new Vector3(-1, 1, 1);
+            transform.localScale = new Vector3(
+                -Mathf.Abs(originalScale.x),
+                originalScale.y,
+                originalScale.z
+            );
     }
 
     public void OnMove(InputAction.CallbackContext context)
