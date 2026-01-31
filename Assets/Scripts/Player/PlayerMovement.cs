@@ -21,15 +21,17 @@ public class PlayerMovement : MonoBehaviour
     public void OnJump(InputAction.CallbackContext context)
     {
         if (context.performed)
+            {
             jumpPressed = true;
+            }
     }
 
     private void FixedUpdate()
     {
         // Horizontal movement only
         body.linearVelocity = new Vector2(movementInput.x * speed, body.linearVelocity.y);
-
-        // Jump (apply once)
+        
+        //Jump (apply once)
         if (jumpPressed)
         {
             body.linearVelocity = new Vector2(body.linearVelocity.x, jumpForce);
@@ -47,4 +49,5 @@ public class PlayerMovement : MonoBehaviour
     {
         movementInput = context.ReadValue<Vector2>();
     }
+
 }
