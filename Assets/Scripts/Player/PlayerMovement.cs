@@ -1,54 +1,50 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float speed = 5;
-    private Rigidbody2D body;
+    public float speed = 5f;
 
+    // ?? ADD THESE HERE
+    public float jumpForce = 12f;
+    private bool jumpPressed;
+
+    private Rigidbody2D body;
     private Vector2 movementInput;
-    //[SerializeField] private float speed;
 
     private void Awake()
     {
         body = GetComponent<Rigidbody2D>();
+        body.interpolation = RigidbodyInterpolation2D.Interpolate; // helps jitter
     }
 
-
-    private void Update()
+    public void OnJump(InputAction.CallbackContext context)
     {
-        //Player movement
-        //float horizontalInput = Input.GetAxis("Horizontal");
-       // body.linearVelocity = new Vector2(horizontalInput * speed, body.linearVelocity.y);
-
-        transform.Translate(new Vector3(movementInput.x, 0, movementInput.y) * speed * Time.deltaTime);
-
-
-        // Flipping Character when moving
-        //if (movementInput.x > 0.01f)
-        //{
-        //    transform.localScale = Vector3.one;
-        //}
-
-        //else if (movementInput.x < -0.01f)
-        //{
-        //    transform.localScale = new Vector3(-1,1,1);
-        //}
-
-
-        // Jumping
-        //if (Input.GetKey(KeyCode.Space))
-        //{
-        //    body.linearVelocity = new Vector2(body.linearVelocity.x, speed);
-        //}
-
-        
-        
-
+        if (context.performed)
+            jumpPressed = true;
     }
-    public void OnMove(InputAction.CallbackContext context) => movementInput = context.ReadValue<UnityEngine.Vector2>();
 
+    private void FixedUpdate()
+    {
+        // Horizontal movement only
+        body.linearVelocity = new Vector2(movementInput.x * speed, body.linearVelocity.y);
+
+        // Jump (apply once)
+        if (jumpPressed)
+        {
+            body.linearVelocity = new Vector2(body.linearVelocity.x, jumpForce);
+            jumpPressed = false; // ?? IMPORTANT
+        }
+
+        // Flip sprite
+        if (movementInput.x > 0.01f)
+            transform.localScale = Vector3.one;
+        else if (movementInput.x < -0.01f)
+            transform.localScale = new Vector3(-1, 1, 1);
+    }
+
+    public void OnMove(InputAction.CallbackContext context)
+    {
+        movementInput = context.ReadValue<Vector2>();
+    }
 }
