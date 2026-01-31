@@ -1,9 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
+
 public class PlayerMovement : MonoBehaviour
 {
     public float speed = 5f;
+    private bool canJump;
 
     // ?? ADD THESE HERE
     public float jumpForce = 12f;
@@ -32,11 +35,12 @@ public class PlayerMovement : MonoBehaviour
         body.linearVelocity = new Vector2(movementInput.x * speed, body.linearVelocity.y);
         
         //Jump (apply once)
-        if (jumpPressed)
+        if (jumpPressed && canJump)
         {
             body.linearVelocity = new Vector2(body.linearVelocity.x, jumpForce);
-            jumpPressed = false; // ?? IMPORTANT
+            canJump = false;
         }
+        jumpPressed = false;
 
         // Flip sprite
         if (movementInput.x > 0.01f)
@@ -49,5 +53,24 @@ public class PlayerMovement : MonoBehaviour
     {
         movementInput = context.ReadValue<Vector2>();
     }
+
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Platfroms"))
+        {
+            Debug.Log("COLLIDING WITH: " + collision.gameObject.name);
+            canJump = true;
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Platfroms"))
+        {
+            canJump = false;
+            Debug.Log("LEFT COLLISION");
+        }
+    }
+
 
 }
