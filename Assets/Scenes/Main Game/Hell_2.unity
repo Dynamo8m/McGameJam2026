@@ -2397,7 +2397,7 @@ GameObject:
   - component: {fileID: 1323398094}
   m_Layer: 0
   m_Name: Player_2
-  m_TagString: Player
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2636,7 +2636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63db0612c787c724488fbb7d4fe51ee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  hitEffectPrefab: {fileID: 0}
+  hitEffectPrefab: {fileID: 5285118779746247448, guid: 7b6a8371d7bf54b8c83aa39a68d55689, type: 3}
   hitStopDuration: 0.15
   hitEffectScale: 6
   hitEffectOffset: {x: 0, y: 0, z: 0}
@@ -4775,7 +4775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63db0612c787c724488fbb7d4fe51ee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  hitEffectPrefab: {fileID: 0}
+  hitEffectPrefab: {fileID: 5285118779746247448, guid: 7b6a8371d7bf54b8c83aa39a68d55689, type: 3}
   hitStopDuration: 0.15
   hitEffectScale: 6
   hitEffectOffset: {x: 0, y: 0, z: 0}
