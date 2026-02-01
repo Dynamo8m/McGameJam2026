@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SpriteChangeOnCOllision : MonoBehaviour
 {
@@ -23,6 +24,12 @@ public class SpriteChangeOnCOllision : MonoBehaviour
         collision.gameObject != gameObject)
     {
         ToggleSprite();
+    }
+
+    if (collision.gameObject.CompareTag("Exit")) //Contact with gate TODO: Detect that a "human" is touching the gate
+    {
+            Debug.Log("exit contact");
+            SceneManager.LoadScene("Hell_2"); //TODO change scene corresponding to current level? (I.e. 1->2, 2->3)
     }
 }
 
