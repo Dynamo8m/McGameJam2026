@@ -3,7 +3,6 @@ using UnityEngine;
 public class SpriteChangeOnCOllision : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
-
     public Sprite originalSprite;
     public Sprite alternateSprite;
 
@@ -27,8 +26,7 @@ public class SpriteChangeOnCOllision : MonoBehaviour
     }
 }
 
-
-    private void ToggleSprite()
+     private void ToggleSprite()
     {
         if (spriteRenderer != null)
         {
