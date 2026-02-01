@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
 
 
    
+    [SerializeField] private float jumpBufferTime = 0.1f;
+    private float jumpPressedTime = -999f;
 
     [SerializeField] private GameObject hitEffectPrefab;  // drag your effect prefab here
     [SerializeField] private float hitStopDuration = 0.15f; // how long to pause gameplay
@@ -115,10 +117,9 @@ public class PlayerMovement : MonoBehaviour
     public void OnJump(InputAction.CallbackContext context)
     {
         if (context.performed)
-            {
-            jumpPressed = true;
-            }
+            jumpPressedTime = Time.time;
     }
+
 
     private void FixedUpdate()
     {
@@ -131,12 +132,15 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("Grounded", canJump);
 
             // Jump (apply once)
-            if (jumpPressed && canJump)
+            bool bufferedJump = (Time.time - jumpPressedTime) <= jumpBufferTime;
+
+            if (bufferedJump && canJump)
             {
                 body.linearVelocity = new Vector2(body.linearVelocity.x, jumpForce);
                 canJump = false;
+                jumpPressedTime = -999f; // consume
             }
-            jumpPressed = false;
+
 
             // Flip sprite
             if (movementInput.x > 0.01f)
@@ -188,6 +192,23 @@ public class PlayerMovement : MonoBehaviour
 
     nextHitIsB = !nextHitIsB;
 }
+
+private void OnCollisionStay2D(Collision2D collision)
+{
+    if (collision.gameObject.CompareTag("Platfroms"))
+    {
+        // Optional: only count as grounded if collision is from below
+        foreach (var contact in collision.contacts)
+        {
+            if (contact.normal.y > 0.5f) // platform is under us
+            {
+                canJump = true;
+                return;
+            }
+        }
+    }
+}
+
 
 private void OnCollisionExit2D(Collision2D collision)
 {
