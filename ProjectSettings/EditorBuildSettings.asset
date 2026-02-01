@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/UI Scenes/Win.unity
     guid: 8ea2cc7487a60e346a039714deee4d4d
+  - enabled: 1
+    path: Assets/Scenes/Main Game/Hell.unity
+    guid: 7cb9c51f2e8090842ba9544a6e82cd78
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
