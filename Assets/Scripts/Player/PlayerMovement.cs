@@ -94,7 +94,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Platfroms"))
         {
-            canJump = false;
+            canJump = true;
             Debug.Log("LEFT COLLISION");
         }
     }
