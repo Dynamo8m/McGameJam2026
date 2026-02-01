@@ -5,8 +5,11 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+   Animator animator;
     public float speed = 5f;
     private bool canJump;
+
+    private bool nextHitIsB = false;
     private Vector3 originalScale;
 
     // ?? ADD THESE HERE
@@ -15,6 +18,13 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D body;
     private Vector2 movementInput;
+
+    void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
+
 
     private void Awake()
     {
@@ -37,6 +47,9 @@ public class PlayerMovement : MonoBehaviour
         // Horizontal movement only
         body.linearVelocity = new Vector2(movementInput.x * speed, body.linearVelocity.y);
         
+        animator.SetFloat("Speed", Mathf.Abs(movementInput.x));
+        animator.SetBool("Grounded", canJump);
+
         //Jump (apply once)
         if (jumpPressed && canJump)
         {
@@ -65,20 +78,23 @@ public class PlayerMovement : MonoBehaviour
         movementInput = context.ReadValue<Vector2>();
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Platfroms"))
-        {
-            Debug.Log("COLLIDING WITH: " + collision.gameObject.name);
-            canJump = true;
-        }
+        if (!collision.gameObject.CompareTag("Player")) return;
+
+        if (nextHitIsB)
+            animator.SetTrigger("Hit2");
+        else
+            animator.SetTrigger("Hit");
+
+        nextHitIsB = !nextHitIsB; // flip for next time
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Platfroms"))
         {
-            canJump = false;
+            canJump = true;
             Debug.Log("LEFT COLLISION");
         }
     }
