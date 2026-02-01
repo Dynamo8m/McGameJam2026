@@ -125,7 +125,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -204,7 +204,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -270,7 +270,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -414,7 +414,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -488,7 +488,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -557,7 +557,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -677,6 +677,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -698,6 +700,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -718,7 +721,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -787,7 +790,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -1051,7 +1054,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -1120,7 +1123,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -1177,7 +1180,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -1246,7 +1249,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -1315,7 +1318,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -1394,7 +1397,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -1468,7 +1471,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -1525,7 +1528,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -1594,7 +1597,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -1656,7 +1659,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -1776,6 +1779,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1797,6 +1802,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -1817,7 +1823,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -1891,7 +1897,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -2068,6 +2074,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2089,6 +2097,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -2124,7 +2133,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -2201,7 +2210,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -2270,7 +2279,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -2514,7 +2523,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -2576,7 +2585,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -2650,7 +2659,7 @@ GameObject:
   - component: {fileID: 983812352}
   m_Layer: 0
   m_Name: Platform_Anim
-  m_TagString: Untagged
+  m_TagString: Platfroms
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2674,7 +2683,6 @@ Transform:
   - {fileID: 1226404059}
   - {fileID: 723426280}
   - {fileID: 1558023699}
-  - {fileID: 1484798298}
   - {fileID: 925087302}
   - {fileID: 1848196221}
   m_Father: {fileID: 0}
@@ -2685,7 +2693,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -2742,7 +2750,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -2811,7 +2819,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -2868,7 +2876,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -2930,7 +2938,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -2987,7 +2995,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -3182,6 +3190,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3203,6 +3213,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -3223,7 +3234,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -3307,7 +3318,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -3364,7 +3375,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -3433,7 +3444,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -3499,7 +3510,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -3731,7 +3742,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -3890,7 +3901,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -4250,7 +4261,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -4307,7 +4318,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -4578,7 +4589,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -4639,7 +4650,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -4696,7 +4707,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -4845,6 +4856,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4866,6 +4879,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -5002,6 +5016,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5023,6 +5039,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -5058,7 +5075,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -5127,7 +5144,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -5196,7 +5213,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -5263,11 +5280,6 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5610918418478763845, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
   m_PrefabInstance: {fileID: 938816830}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1681457899 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5610918418478763845, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
-  m_PrefabInstance: {fileID: 1348261638}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1714420307
 GameObject:
@@ -5442,7 +5454,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1722229223}
+  - component: {fileID: 1747394739}
   m_Layer: 0
   m_Name: Platforms
   m_TagString: Platfroms
@@ -5450,64 +5462,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!212 &1747394738
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1747394737}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 2a6c1a1b826f29e4facc938734a21c2b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.2, y: 1.6}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!4 &1747394739
 Transform:
   m_ObjectHideFlags: 0
@@ -5548,16 +5502,12 @@ Transform:
   - {fileID: 119227439}
   - {fileID: 1063149597}
   - {fileID: 1579197996}
-  - {fileID: 1373792344}
   - {fileID: 643918723}
   - {fileID: 1100140108}
   - {fileID: 378913056}
   - {fileID: 380514984}
-  - {fileID: 1377132470}
-  - {fileID: 1681457899}
   - {fileID: 936037042}
   - {fileID: 805316318}
-  - {fileID: 1356970277}
   - {fileID: 913954838}
   - {fileID: 964952532}
   - {fileID: 920267203}
@@ -5596,7 +5546,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -5665,7 +5615,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -5842,6 +5792,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5863,6 +5815,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -5883,7 +5836,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -6079,7 +6032,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -6148,7 +6101,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -6217,7 +6170,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -6344,7 +6297,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -6413,7 +6366,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -6487,7 +6440,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -6544,7 +6497,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -6897,7 +6850,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -6981,7 +6934,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -7043,7 +6996,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -7104,7 +7057,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1722229223}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3021840656712700408, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
       propertyPath: m_Name
@@ -7163,10 +7116,12 @@ SceneRoots:
   - {fileID: 1869833352}
   - {fileID: 2047018805}
   - {fileID: 1323398091}
-  - {fileID: 1722229223}
   - {fileID: 1309307819}
   - {fileID: 983812352}
   - {fileID: 1545429899}
   - {fileID: 1924693072}
   - {fileID: 93303650}
   - {fileID: 1434410340}
+  - {fileID: 1654762941}
+  - {fileID: 1129674300}
+  - {fileID: 1747394739}
