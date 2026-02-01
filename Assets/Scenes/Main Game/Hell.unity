@@ -4045,7 +4045,6 @@ GameObject:
   - component: {fileID: 1323398093}
   - component: {fileID: 1323398094}
   - component: {fileID: 1323398095}
-  - component: {fileID: 1323398096}
   m_Layer: 0
   m_Name: Player_2
   m_TagString: Enemy
@@ -4273,10 +4272,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e31d2dad89ff945748b7be08a2cfe5f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpriteChangeOnCOllision
-  spriteRenderer: {fileID: 0}
-  originalSprite: {fileID: 21300000, guid: 9aab8615d76204a11bf75233becff3a5, type: 3}
-  alternateSprite: {fileID: 21300000, guid: 7b35d3d99793fc74ca8134ca4776eb85, type: 3}
-  isAlternateSprite: 0
 --- !u!114 &1323398093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4289,6 +4284,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63db0612c787c724488fbb7d4fe51ee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  jumpBufferTime: 0.1
   hitEffectPrefab: {fileID: 0}
   hitStopDuration: 0.15
   hitEffectScale: 6
@@ -4332,23 +4328,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e31d2dad89ff945748b7be08a2cfe5f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 0}
-  originalSprite: {fileID: 0}
-  alternateSprite: {fileID: 0}
-  isAlternateSprite: 0
---- !u!114 &1323398096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1323398085}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad25b1e43c4594473a13a94695a5b2ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerForm
-  isDemon: 0
 --- !u!4 &1379712667 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5610918418478763845, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
@@ -6696,7 +6675,6 @@ GameObject:
   - component: {fileID: 2047018808}
   - component: {fileID: 2047018809}
   - component: {fileID: 2047018810}
-  - component: {fileID: 2047018811}
   m_Layer: 0
   m_Name: Player_1
   m_TagString: Player
@@ -6924,10 +6902,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e31d2dad89ff945748b7be08a2cfe5f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpriteChangeOnCOllision
-  spriteRenderer: {fileID: 0}
-  originalSprite: {fileID: 21300000, guid: 7b35d3d99793fc74ca8134ca4776eb85, type: 3}
-  alternateSprite: {fileID: 21300000, guid: 9aab8615d76204a11bf75233becff3a5, type: 3}
-  isAlternateSprite: 0
 --- !u!114 &2047018809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6940,6 +6914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63db0612c787c724488fbb7d4fe51ee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
+  jumpBufferTime: 0.1
   hitEffectPrefab: {fileID: 5285118779746247448, guid: 7b6a8371d7bf54b8c83aa39a68d55689, type: 3}
   hitStopDuration: 0.15
   hitEffectScale: 6
@@ -6971,19 +6946,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2047018811
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2047018801}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad25b1e43c4594473a13a94695a5b2ae, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerForm
-  isDemon: 0
 --- !u!4 &2088230125 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5610918418478763845, guid: 76d224a2921ac534b911aef758a0af0d, type: 3}
