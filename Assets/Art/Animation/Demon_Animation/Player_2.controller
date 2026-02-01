@@ -37,7 +37,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 3869562dffb8b47b18808c8f052bff75, type: 2}
-  m_Tag: 
+  m_Tag: Human
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
@@ -441,7 +441,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 0229f4dad9c624cc69a1a6c2bf8a092a, type: 2}
-  m_Tag: 
+  m_Tag: Demon
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
@@ -532,7 +532,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: e5b6ef9da73704935a9f985720199e0b, type: 2}
-  m_Tag: 
+  m_Tag: Human
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
@@ -599,7 +599,7 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: dfaae785dbb734543b26f411ab1dfa9a, type: 2}
-  m_Tag: 
+  m_Tag: Demon
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 

@@ -68,7 +68,7 @@ public class PlayerMovement : MonoBehaviour
         // Pause gameplay (FX will still play because Animator is Unscaled Time)
         StartCoroutine(HitStopNextFrame());
 
-        Destroy(fx, 2f);
+        Destroy(fx, 1f);
     }
 
 
