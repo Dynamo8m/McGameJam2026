@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using System;
 
 public class GameMenu : MonoBehaviour
 {
@@ -10,10 +12,6 @@ public class GameMenu : MonoBehaviour
         SceneManager.LoadScene(gameSceneName);
     }
 
-    public void Options() 
-    {
-
-    }
     public void Quit() 
     {
         Application.Quit();

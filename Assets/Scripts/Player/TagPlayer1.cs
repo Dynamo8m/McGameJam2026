@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class SpriteChangeOnCOllision : MonoBehaviour
 {
@@ -6,7 +7,7 @@ public class SpriteChangeOnCOllision : MonoBehaviour
     public Sprite originalSprite;
     public Sprite alternateSprite;
 
-    private bool isAlternateSprite = false;
+    private bool isAlternateSprite = false; //Is demon?
 
     private void Start()
     {
@@ -15,6 +16,7 @@ public class SpriteChangeOnCOllision : MonoBehaviour
         {
             originalSprite = spriteRenderer.sprite;
         }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -23,6 +25,12 @@ public class SpriteChangeOnCOllision : MonoBehaviour
         collision.gameObject != gameObject)
     {
         ToggleSprite();
+    }
+
+    if (collision.gameObject.CompareTag("Exit") && !isAlternateSprite) //Contact with gate, detects that a "human" is touching the gate //Can only detect if demon only not using animation
+    {
+            Debug.Log("exit contact");
+            SceneManager.LoadScene("Hell_2"); //TODO change scene corresponding to current level? (I.e. 1->2, 2->3)
     }
 }
 
@@ -33,13 +41,26 @@ public class SpriteChangeOnCOllision : MonoBehaviour
             if (isAlternateSprite)
             {
                 spriteRenderer.sprite = originalSprite;
-                isAlternateSprite = false;
+                isAlternateSprite = false; //Is human
             }
             else
             {
                 spriteRenderer.sprite = alternateSprite;
-                isAlternateSprite = true;
+                isAlternateSprite = true; //Is demon
             }
+        }
+    }
+
+    private void Update()
+    {
+        Debug.Log(isAlternateSprite);
+        if (spriteRenderer.sprite == alternateSprite)
+        {
+            isAlternateSprite = true;
+        }
+        else
+        {
+            isAlternateSprite = false;
         }
     }
 }
